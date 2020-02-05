@@ -14,8 +14,7 @@ public class Main {
         banyak = cin.nextInt();
         int [] nilai = new int[banyak];
         for (int i = 0; i < banyak; i++){
-            int z = i + 1;
-            System.out.print("Nilai ke-" + z + " : ");
+            System.out.print("Nilai ke-" + (i+1) + " : ");
             nilai[i] = cin.nextInt();
             rata = rata + nilai[i];
         }
